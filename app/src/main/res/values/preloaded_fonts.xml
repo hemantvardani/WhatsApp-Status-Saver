@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allan</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/bad_script</item>
+        <item>@font/charm</item>
+        <item>@font/roboto_condensed_light_italic</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+      <group
+          android:id="@+id/left_group"
+          android:gravity="left"
+         >
+
+
+                <item android:id="@+id/cancel_icon"
+                        android:title="cancel"
+                        android:icon="@drawable/cancel_icon"
+                    app:showAsAction="ifRoom"
+
+
+                        />
+      </group>
+
+
+
+
+
+
+</menu>
+
+<!--<group-->
+<!--android:id="@+id/right_group"-->
+<!--android:gravity="end"-->
+
+<!--    >-->
+
+
+<!--<item-->
+<!--    android:id="@+id/select_all_icon"-->
+<!--    android:title="Select All"-->
+<!--    android:icon="@drawable/select_all_icon"-->
+<!--    app:showAsAction="ifRoom" />-->
+<!--<item-->
+<!--    android:id="@+id/whatsapp_share_icon"-->
+<!--    android:title="Whatsapp Share"-->
+<!--    android:icon="@drawable/share"-->
+<!--    app:showAsAction="ifRoom"/>-->
+
+<!--</group>-->

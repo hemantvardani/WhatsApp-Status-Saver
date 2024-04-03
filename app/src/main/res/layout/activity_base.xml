@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:id="@+id/drawer"
+    tools:context=".BaseActivity"
+
+    >
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@color/whatsapp_green">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:fontFamily="@font/roboto_medium"-->
+<!--                android:paddingStart="30dp"-->
+<!--                android:text="Status Saver"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="24sp"-->
+<!--                tools:ignore="RtlSymmetry" />-->
+
+
+<!--        </RelativeLayout>-->
+
+        <LinearLayout
+             android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+<!--            <com.google.android.material.appbar.AppBarLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/roboto_medium"
+                    android:paddingStart="2dp"
+                    android:text="Status Saver"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    app:titleTextColor="@color/white"
+                    android:background="@color/whatsapp_green"
+
+                    app:menu="@menu/baseactivity_menu"
+                    android:id="@+id/toolbar"/>
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbar_at_selection_color1"
+
+        android:id="@+id/appBar_for_toolbar_image"
+        android:layout_centerVertical="true"
+
+        android:visibility="gone"
+        android:layout_alignTop="@+id/toolbar">
+<!--        android:background="@color/whatsapp_green"-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            >
+
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingStart="2dp"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:titleTextColor="@color/white"
+
+                app:menu="@menu/action_mode_menu"
+                android:id="@+id/toolbar_at_selection"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_alignTop="@+id/toolbar_at_selection"
+    android:gravity="center_vertical"
+
+    >
+
+
+
+
+
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/cancel_iconn"
+                    android:src="@drawable/cancel_icon"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/how_many_selection"
+
+
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+
+                    android:textSize="20dp"
+
+
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="3"
+                    />
+
+
+             <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:src="@drawable/select_all_icon"
+
+                 android:id="@+id/select_all_icon"
+                 android:layout_gravity="center_vertical"
+
+
+
+                 android:layout_weight="1"
+
+                 />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:src="@drawable/download_white"
+                android:id="@+id/download_white_icon"
+                android:layout_gravity="center_vertical"
+
+                android:layout_weight="1"
+                />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/share"
+                    android:id="@+id/whatsapp_share_icon_image"
+                    android:layout_gravity="center_vertical"
+
+                    android:layout_weight="1"
+                    />
+
+
+
+
+</LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+<!--            </com.google.android.material.appbar.AppBarLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/container">
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+<!--        <com.google.android.material.tabs.TabLayout-->
+<!--            android:id="@+id/tabLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:background="@color/whatsapp_green"-->
+
+<!--            app:tabIndicatorAnimationMode="linear"-->
+<!--            app:tabIndicatorColor="#FFFFFF"-->
+<!--            app:tabIndicatorHeight="4dp"-->
+<!--            app:tabTextColor="#FFFFFF"-->
+<!--            app:tabIndicator="@drawable/tab_indicator_layout1"-->
+
+
+<!--            tools:ignore="MissingConstraints">-->
+
+<!--        </com.google.android.material.tabs.TabLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+
+<!--            <androidx.viewpager2.widget.ViewPager2-->
+<!--                android:id="@+id/viewPager"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                tools:ignore="MissingConstraints"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_marginLeft="2dp"-->
+<!--                android:layout_marginRight="2dp"-->
+<!--                >-->
+
+<!--            </androidx.viewpager2.widget.ViewPager2>-->
+
+
+<!--        </RelativeLayout>-->
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:id="@+id/navigation_bar"
+        app:menu="@menu/navigation_menu"
+        app:itemTextColor="#000000"
+
+        app:itemIconTint="#008069"
+
+
+        app:headerLayout="@layout/header_navigation_layout"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+<!--<androidx.appcompat.widget.Toolbar-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_alignTop="@+id/toolbar"-->
+<!--android:layout_centerVertical="true"-->
+<!--android:fontFamily="@font/roboto_medium"-->
+<!--android:paddingStart="2dp"-->
+
+<!--android:visibility="gone"-->
+<!--android:textColor="#FFFFFF"-->
+<!--android:textSize="24sp"-->
+<!--app:titleTextColor="@color/white"-->
+<!--android:background="@color/whatsapp_green"-->
+<!--app:menu="@menu/action_mode_menu"-->
+<!--android:id="@+id/toolbar_at_selection"/>-->

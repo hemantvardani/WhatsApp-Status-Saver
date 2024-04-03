@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FullScreenImageActivity">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FF007569"
+            android:id="@+id/appBar_for_toolbar_image"
+            android:layout_centerVertical="true"
+
+            android:visibility="visible"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                >
+
+
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/roboto_medium"
+                    android:paddingStart="2dp"
+
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+
+
+
+                    android:id="@+id/toolbar_at_fullScreen_image"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_alignTop="@+id/toolbar_at_fullScreen_image"
+                    android:gravity="center_vertical"
+
+                    >
+
+
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/back_image"
+                        android:src="@drawable/back"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+
+                        />
+
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="25dp"-->
+<!--                        android:id="@+id/how_many_selection"-->
+
+
+<!--                        android:layout_weight="1"-->
+<!--                        android:gravity="center_vertical"-->
+<!--                        android:layout_gravity="center_vertical"-->
+
+<!--                        android:textSize="20dp"-->
+
+
+<!--                        />-->
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="5"
+                        />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/download_white"
+
+                        android:id="@+id/download_white_icon1_image"
+                        android:layout_gravity="center_vertical"
+
+
+
+                        android:layout_weight="1"
+
+                        />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/share"
+                        android:id="@+id/whatsapp_share_icon_image"
+                        android:layout_gravity="center_vertical"
+
+                        android:layout_weight="1"
+                        />
+
+
+
+
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager_in_fullscreen_image"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+    </androidx.viewpager2.widget.ViewPager2>
+</LinearLayout>
+
+

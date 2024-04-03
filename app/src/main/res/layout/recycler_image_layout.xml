@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_700"
+    app:cardCornerRadius="10dp"
+
+
+    android:layout_width="match_parent"
+        android:layout_height="140dp"
+
+    >
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:background="@color/image_border_color"
+    android:paddingRight="2dp"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/image_in_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:scaleType="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.0"
+        android:id="@+id/selection_green_screen"
+        android:layout_alignTop="@+id/image_in_layout"
+
+        >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img"
+        android:alpha="0.3"
+        android:scaleType="fitXY"
+        />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/check"/>
+<!--        android:layout_centerInParent="true"-->
+
+
+
+    </RelativeLayout>
+<!--    <ImageView-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:id="@+id/download_button"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:src="@drawable/download"/>-->
+</RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

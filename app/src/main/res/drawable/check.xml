@@ -1,0 +1,68 @@
+
+<!--<vector android:height="24dp" android:tint="@null"-->
+<!--    android:viewportHeight="24" android:viewportWidth="24"-->
+<!--    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <path android:fillColor="#FFFFFF" android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z"/>-->
+<!--    <path android:fillColor="#00CC00" android:pathData="M9.6,13.2L7.2,10.8L5.4,12.6L9.6,16.8L18.6,7.8L16.8,6L9.6,13.2z"/>-->
+<!--</vector>-->
+
+
+
+
+<!--<vector-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:width="24dp"-->
+<!--    android:height="24dp"-->
+<!--    android:viewportWidth="24"-->
+<!--    android:viewportHeight="24">-->
+
+<!--    <path-->
+<!--        android:fillColor="#FFFFFF"-->
+<!--        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />-->
+
+<!--    <path-->
+<!--        android:strokeColor="#00AA00"-->
+<!--        android:strokeWidth="3"-->
+<!--        android:pathData="M7,14L10,17L17,10"-->
+<!--        android:strokeLineCap="round" />-->
+
+<!--</vector>-->
+
+
+
+
+
+
+
+
+    <vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="24dp"
+android:height="24dp"
+android:viewportWidth="24"
+android:viewportHeight="24"
+
+android:tint="@null">
+
+<path
+    android:fillColor="#FFFFFF"
+    android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z" />
+
+<path
+    android:fillColor="#00CC00"
+
+    android:pathData="M8.5,13.5L6,11L3.5,13.5L8.5,18.5L18.5,8.5L16,6L8.5,13.5z" />
+
+</vector>
+
+
+
+<!--<vector android:height="24dp" android:tint="@null"-->
+<!--android:viewportHeight="24" android:viewportWidth="24"-->
+<!--android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<path android:fillColor="#FFFFFF" android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z"/>-->
+<!--<path android:fillColor="@android:color/holo_blue_light" android:pathData="M9.6,13.2L7.2,10.8L5.4,12.6L9.6,16.8L18.6,7.8L16.8,6L9.6,13.2z"/>-->
+<!--</vector>-->
+
+
+
