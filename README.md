@@ -6,6 +6,6 @@ You can see statuses catagarized into images and videos accordingly.
 Glimpse :-
 
 
-<img src='https://github.com/hemantvardani/WhatsApp-Status-Saver/assets/54838271/c35664b1-1b6b-4669-bb20-aa913d686d49' width="200" height="200"/>
-<img src='https://github.com/hemantvardani/WhatsApp-Status-Saver/assets/54838271/b3838dba-7bbc-4f82-966a-5000cbbeebd6' width="200" height="200"/>
-<img src='https://github.com/hemantvardani/WhatsApp-Status-Saver/assets/54838271/e3ee84c0-f13c-48fb-82b9-ee498c0b51c6' width="200" height="200"/>
+<img src='https://github.com/hemantvardani/WhatsApp-Status-Saver/assets/54838271/c35664b1-1b6b-4669-bb20-aa913d686d49' width="200" height="400"/>
+<img src='https://github.com/hemantvardani/WhatsApp-Status-Saver/assets/54838271/b3838dba-7bbc-4f82-966a-5000cbbeebd6' width="200" height="400"/>
+<img src='https://github.com/hemantvardani/WhatsApp-Status-Saver/assets/54838271/e3ee84c0-f13c-48fb-82b9-ee498c0b51c6' width="200" height="400"/>
